@@ -5,13 +5,12 @@ import lombok.Getter;
 
 @Getter
 @Builder
-
-public class userinfo {
+public class UserInfo {
 
     private Long id;
 
     private String email;
 
-    private  String username;
+    private String username;
 
 }
